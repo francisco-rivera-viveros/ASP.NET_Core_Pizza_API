@@ -1,0 +1,31 @@
+@test_1_HostAddress = http://localhost:5057
+
+GET {{test_1_HostAddress}}/pizza/
+Accept: application/json
+
+###
+
+POST {{test_1_HostAddress}}/pizza/
+Content-Type: application/json
+
+{
+    "name": "Hawaii",
+    "isGlutenFree": false
+}
+
+###
+
+PUT {{test_1_HostAddress}}/pizza/3
+Content-Type: application/json
+
+{
+    "id": 3,
+    "name": "Hawaiian",
+    "isGlutenFree": false
+}
+
+###
+
+DELETE {{test_1_HostAddress}}/pizza/3
+
+###
