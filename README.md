@@ -1,0 +1,1 @@
+  This is an API builded with ASP .NET Core so it's a relly basic API you only get some Json with the info but and I'm thrilled to share it with you !!! it's a lil project inspired on the excersice of Microsoft Learn online courses so in one of them we just did an excersice and I decided it will be a great idea to share it!
